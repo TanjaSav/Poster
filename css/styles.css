@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto',
   sans-serif;
   color: #5f5542;
+  margin: 0;
 }
 
 .container {
@@ -42,13 +43,13 @@ body {
   serif;
 }
 .item-2 {
-  justify-self: end;
   grid-area: item-2;
   position: absolute;
-  transform: translate(-10%, 0);
+  transform: translate(30%, 10%);
 }
+  
 .picture {
-  width: 75%;
+  max-height: 650px;
 }
 
 .item-3 {
@@ -66,7 +67,7 @@ serif;
 .item-3 h3 {
  font-family: 'DM Serif Display',
 serif;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 14px;
 }
 .item-4 h2 {
@@ -80,7 +81,7 @@ serif;
   font-family: 'Antic Slab',
   serif;
   font-size: 30px;
-  line-height: 16px;
+  line-height: 14px;
 }
 
 .item-4 {
