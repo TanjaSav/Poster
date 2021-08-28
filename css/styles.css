@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto',
+  sans-serif;
+  color: #5f5542;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 0 37px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #e8ddcb;
+  color: #5f5542;
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.1fr 2.1fr 2.1fr;
+  grid-template-rows: 0.4fr 2.4fr 0.9fr 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  align-items: stretch;
+  grid-template-areas:
+    "item-1 item-1 item-1"
+    "item-2 item-2 item-3"
+    "item-2 item-2 item-4"
+    "item-5 item-6 item-7";
+}
+
+.item-1 {
+  justify-self: center;
+  align-self: end;
+  grid-area: item-1;
+}
+.item-1 h1 {
+  color: #ff0000;
+  font-size: 65px;
+  line-height: 73px;
+  font-family: 'Holtwood One SC',
+  serif;
+}
+.item-2 {
+  justify-self: end;
+  grid-area: item-2;
+  position: absolute;
+  transform: translate(-10%, 0);
+}
+.picture {
+  width: 75%;
+}
+
+.item-3 {
+  justify-self: center;
+  align-self: center;
+  grid-area: item-3;
+}
+.item-3 h2 {
+  font-family: 'DM Serif Display',
+serif;
+  color: #ff0000;
+  font-size: 40px;
+  line-height: 14px;
+}
+.item-3 h3 {
+ font-family: 'DM Serif Display',
+serif;
+  font-size: 28px;
+  line-height: 14px;
+}
+.item-4 h2 {
+  font-family: 'Antic Slab',
+  serif;
+  color: #ff0000;
+  font-size: 55px;
+  line-height: 18px;
+}
+.item-4 h3 {
+  font-family: 'Antic Slab',
+  serif;
+  font-size: 46px;
+  line-height: 14px;
+}
+
+.item-4 {
+  justify-self: start;
+  align-self: center;
+  grid-area: item-4;
+}
+
+.item-5 {
+  justify-self: center;
+  align-self: center;
+  grid-area: item-5;
+}
+
+.item-6 {
+  justify-self: center;
+  align-self: center;
+  grid-area: item-6;
+}
+
+.item-7 {
+  justify-self: center;
+  align-self: center;
+  grid-area: item-7;
+}
